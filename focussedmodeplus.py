@@ -17,6 +17,9 @@ win32gui.SetWindowLong(hwnd, win32con.GWL_EXSTYLE,
 # Set window transparency color
 win32gui.SetLayeredWindowAttributes(hwnd, win32api.RGB(*fuchsia), 0, win32con.LWA_COLORKEY)
 
+# Set always on top window
+win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOSIZE)
+
 def main():
     ndone = True
     #px, py = 50, 50
@@ -30,11 +33,17 @@ def main():
             
             if event.type == pygame.QUIT:
                 ndone = False
+                pygame.quit()
+                #qExit()
             
             #if event.type == pygame.MOUSEMOTION:    
             #    px, py = pygame.mouse.get_pos()
             
             if event.type == pygame.KEYDOWN:
+                
+                if event.key == pygame.K_q:
+                    ndone = False
+                
                 if event.key == pygame.K_LEFT:
                     if px >= 0:
                         px -= horstepval
