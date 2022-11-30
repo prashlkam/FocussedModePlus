@@ -22,22 +22,24 @@ win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOSI
 
 def main():
     ndone = True
-    #px, py = 50, 50
+    px, py = 50, 50
+    lx, ly = 0, 0
     while ndone:
         
         #px, py = pygame.mouse.get_pos()
         
         for event in pygame.event.get():
             
-            px, py = pygame.mouse.get_pos()
+            if lx == px and ly == py:
+                px, py = pygame.mouse.get_pos()
             
             if event.type == pygame.QUIT:
                 ndone = False
                 pygame.quit()
-                #qExit()
+                #Quit()
             
-            #if event.type == pygame.MOUSEMOTION:    
-            #    px, py = pygame.mouse.get_pos()
+            if event.type == pygame.MOUSEMOTION:    
+                px, py = pygame.mouse.get_pos()
             
             if event.type == pygame.KEYDOWN:
                 
@@ -66,7 +68,8 @@ def main():
                         py = scrres.current_h
                 
                 #pygame.mouse.set_pos(px, py)
-                #px, py = pygame.mouse.get_pos()
+                lx, ly = pygame.mouse.get_pos()
+            
                                 
         screen.fill(black)
         # Transparent Rectangle
