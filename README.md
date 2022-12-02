@@ -4,6 +4,12 @@ A tool that could help persons with Autism to Focus more only on a certain part 
 ## What is FocusedModePlus
 
 ## FocusedModePlus features
+ - FocusedModePlus tries to reduce distractions by fousing only on a small part of the screen
+ - when FocusedModePlus is run - it places a fullscreen, always-on-top, borderless and blank window over the screen
+ - a small part of this blank window is Transparent - through which anything that is in the background can be seen
+ - the Transparent area moves wherever the mouse cursor is moved
+ - the Transpsrent area can also be moved - by using the Arrow keys on the keyboard
+ - the whole blank window can be Minimized - by pressing the '.' (Period) ksy
 
 ## Setup
 -----------
@@ -16,6 +22,10 @@ pip install pygame
  - install pywin32 using pip
 ```
 pip install pywin32
+```
+ - do a git clone of this project - in a directory of your choice
+```
+git clone  https://github.com/prashlkam/FocusedModePlus
 ```
  - open windows cmd prompt and navigate to the directory where you saved the project...
 ```
