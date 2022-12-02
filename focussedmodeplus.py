@@ -66,8 +66,11 @@ def main():
                         py += vertstepval
                     else:
                         py = scrres.current_h
+                if event.key == pygame.K_PERIOD:
+                    pygame.display.iconify()
+                if event.key == pygame.K_GREATER:
+                    pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
                 
-                #pygame.mouse.set_pos(px, py)
                 lx, ly = pygame.mouse.get_pos()
             
                                 
