@@ -9,7 +9,9 @@ A tool that could help persons with Autism to Focus more only on a certain part 
  - a small part of this blank window is Transparent - through which anything that is in the background can be seen
  - the Transparent area moves wherever the mouse cursor is moved
  - the Transparent area can also be moved - by using the Arrow keys on the keyboard
- - the whole blank window can be Minimized - by pressing the '.' (Period) key
+ - the Transparent area can also be resiized horizontally - use the `-` key to reduce the width and the `=` key to increase width
+ - the Transparent area can also be resiized vertically - use the `[` key to reduce the hight and the `]` key to increase hight
+ - the whole blank window can be Minimized - by pressing the `m` key
 
 ## Setup
 -----------
