@@ -22,6 +22,7 @@ win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOSI
 
 def main():
     ndone = True
+    width, hight = 250, 150
     px, py = 50, 50
     lx, ly = 0, 0
     while ndone:
@@ -66,20 +67,43 @@ def main():
                         py += vertstepval
                     else:
                         py = scrres.current_h
-                if event.key == pygame.K_PERIOD:
+                
+                if event.key == pygame.K_m:
                     pygame.display.iconify()
-                if event.key == pygame.K_GREATER:
-                    pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+                # if event.key == pygame.K_x:
+                #     pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+                
+                if event.key == pygame.K_MINUS:
+                    if hight > 5:
+                        hight -= 5
+                    else:
+                        hight = 150
+                if event.key == pygame.K_EQUALS:
+                    if hight < scrres.current_h:
+                        hight += 5
+                    else:
+                        hight = 5
+                
+                if event.key == pygame.K_LEFTBRACKET:
+                    if width > 5:
+                        width -= 5
+                    else:
+                        width = 250
+                if event.key == pygame.K_RIGHTBRACKET:
+                    if width < scrres.current_w:
+                        width += 5
+                    else:
+                        width = 5
                 
                 lx, ly = pygame.mouse.get_pos()
             
                                 
         screen.fill(black)
         # Transparent Rectangle
-        drawtransparentrectangle(px, py)
+        drawtransparentrectangle(px, py, width, hight)
         pygame.display.update()
         
-def drawtransparentrectangle(px, py):
+def drawtransparentrectangle(px, py, width, hight):
     pygame.draw.rect(screen, fuchsia, pygame.Rect(px-int(width/2), py-int(hight/2), width, hight))
     
 main()
