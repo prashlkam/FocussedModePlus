@@ -13,11 +13,11 @@ Video on How to Diagnoze Autism with Computers (and Machine Learning)
 
 Apart from this, there are various software applications available for persons with Autism. Broadly the softwares can be classified into the following Catagories...
 
- > Autism Diagnosis / Training / Early Intervention (for Parents)
- > Communication / Assistive Aids
- > Early Schooling / Educational Aids
- > Entertainment / Recreational software
- > Other Tools / Utilities
+ - Autism Diagnosis / Training / Early Intervention (for Parents)
+ - Communication / Assistive Aids
+ - Early Schooling / Educational Aids
+ - Entertainment / Recreational software
+ - Other Tools / Utilities
  
 For a Curated list of Software Solutions for Autism - you may refer to the following URL...
 
