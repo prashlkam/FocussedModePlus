@@ -9,7 +9,7 @@ Autism spectrum disorder (ASD) is a developmental disability caused by differenc
 Technology has helped Autism in many ways...
 
 Video on How to Diagnoze Autism with Computers (and Machine Learning)
-[!Youtube Video](https://www.youtube.com/watch?v=YQpTlnWYAqE&t=196s)
+![Youtube Video](https://www.youtube.com/watch?v=YQpTlnWYAqE&t=196s)
 
 Apart from this, there are various software applications available for persons with Autism. Broadly the softwares can be classified into the following Catagories...
 
@@ -59,13 +59,13 @@ FocusedModePlus
 
 Consider the following images / screenshots...
 
-<img src="./content/inde6556y77t6x.png", width="800", hight="600">
+<img src="/content/inde6556y77t6x.png", width="800", hight="600">
 Img 1 - Cluttered desktop with too many files
 
-<img src="./content/ind555y67ex.jpg", width="800", hight="600">
+<img src="/content/ind555y67ex.jpg", width="800", hight="600">
 Img 2 - Cluttered desktop with too many open Apps
 
-<img src="./content/images7yuhgbhju7y78uhy66tyu7uybh.jpg", width="800", hight="600">
+<img src="/content/images7yuhgbhju7y78uhy66tyu7uybh.jpg", width="800", hight="600">
 Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)
 ----------------
 
