@@ -84,6 +84,7 @@ Img 2 - Cluttered desktop with too many open Apps
 ![Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)](/content/images7yuhgbhju7y78uhy66tyu7uybh.jpg)
 
 Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)
+
 ----------------
 
 Clutter is a Reality in life. Eliminating clutter might be possible in some cases - but more difficult in others.
