@@ -74,12 +74,15 @@ FocusedModePlus
 Consider the following images / screenshots...
 
 ![Img 1 - Cluttered desktop with too many files](/content/inde6556y77t6x.png)
+
 Img 1 - Cluttered desktop with too many files
 
 ![Img 2 - Cluttered desktop with too many open Apps](/content/ind555y67ex.jpg)
+
 Img 2 - Cluttered desktop with too many open Apps
 
 ![Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)](/content/images7yuhgbhju7y78uhy66tyu7uybh.jpg)
+
 Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)
 ----------------
 
