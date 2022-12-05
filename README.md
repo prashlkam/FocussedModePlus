@@ -26,16 +26,9 @@ http://www.mousetrial.com/autism_software.html
 Issues faced by Users of Software (with Autism)
 ---------
 
-Clutter can be a huge stressor for people with autism because it can contribute to sensory overload and overall stress levels. An unorganized and messy space (a cluttered desktop for instance) can also make simple tasks more difficult because a larger amount of time may need to be dedicated to finding needed files / items.
-
-A user posted the following comments on reddit...
-"Yes, but I also have ADHD. I simultaneously want a clean space but will treat clutter as invisible.
-
-When I finally "see" clutter, I will start so rapidly and thoroughly cleaning that I get overwhelmed and then I'll be so burnt out that I can't even consider the thought of cleaning for days. When this happens, I usually end up undoing some of the cleaning I did accomplish."
-
-Source: https://www.reddit.com/r/AutismTranslated/comments/vlxhcg/do_anyone_else_get_super_overstimulated_by_visual/
-
-Another issue is Pop-ups / Notifications. When Pop-ups / Notifications appear - users can easily get distracted by them and lose focus on the Activity that they're currently performing. Persons with Autism can also get overwhelmed by these Pop-ups / Notifications - and not be in a position to decide what to do next.
+(A) Distraction from Pop-ups / Notificarions
+-------------
+A common issue that's faced by persons with Autism is distraction from Pop-ups / Notifications. When Pop-ups / Notifications appear - users can easily get distracted by them and lose focus on the Activity that they're currently performing. Persons with Autism can also get overwhelmed by these Pop-ups / Notifications - and not be in a position to decide what to do next.
 
 Focus Assist on Windows 10
 ---------
@@ -54,16 +47,40 @@ For a full run down on how to use Focus Assist - please visit the following URLs
   2. https://blogs.microsoft.com/accessibility/m365-accessibility-spring-2022/
   3. or just Google for "Focus Assist on Windows 11"...
 
+(B) Clutter leading to Sensory Overload
+---------------
+Clutter can be a huge stressor for people with autism because it can contribute to sensory overload and overall stress levels. An unorganized and messy space (a cluttered desktop for instance) can also make simple tasks more difficult because a larger amount of time may need to be dedicated to finding needed files / items.
+
+A user posted the following comments on reddit...
+"Yes, but I also have ADHD. I simultaneously want a clean space but will treat clutter as invisible.
+
+When I finally "see" clutter, I will start so rapidly and thoroughly cleaning that I get overwhelmed and then I'll be so burnt out that I can't even consider the thought of cleaning for days. When this happens, I usually end up undoing some of the cleaning I did accomplish."
+
+Source: https://www.reddit.com/r/AutismTranslated/comments/vlxhcg/do_anyone_else_get_super_overstimulated_by_visual/
+
+Microsoft Immersive Reader 
+-------------
+Microsoft Immersive Reader is an interactive reading comprehension and learning tool. This tool makes text more accessible to learners of all ages and abilities. Using Microsoft Immersive Reader, you can have text read aloud at different speeds and by different voices, change text size, font, and spacing, highlight specific parts of speech (e.g., nouns, verbs), break apart words by syllables, translate text to more than 80 languages, hear audio recordings of the words spoken in different languages, and see words represented as pictures.
+
+Microsoft Immersive Reader can be accessed through Microsoft Tools (e.g., Word, OneNote, Edge) and you can try it out for free on the Learning Tools page of the Microsoft website. Immersive Reader can also be accessed through Flipgrid. This tool can be beneficial for students who are learning English as well as students with disabilities.
+
+Microsoft Immersive Reader is quite possibly the only App of its kind - that can be used in the Mainstream...
+
+For more details, visit - (1)  https://blogs.umass.edu/onlinetools/knowledge-centered-tools/microsoft-immersive-reader/
+Or  (2)  Just Google for "Immersive Reader"...
+
 FocusedModePlus
 --------
-
 Consider the following images / screenshots...
 
 ![Img 1 - Cluttered desktop with too many files](/content/inde6556y77t6x.png)
+Img 1 - Cluttered desktop with too many files
 
 ![Img 2 - Cluttered desktop with too many open Apps](/content/ind555y67ex.jpg)
+Img 2 - Cluttered desktop with too many open Apps
 
 ![Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)](/content/images7yuhgbhju7y78uhy66tyu7uybh.jpg)
+Img 3 - Cluttered toolbars with too many buttons (eg. Adobe Photoshop toolbars over various versions)
 ----------------
 
 Clutter is a Reality in life. Eliminating clutter might be possible in some cases - but more difficult in others.
