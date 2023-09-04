@@ -101,8 +101,8 @@ FocusedModePlus is just such an Attempt...
  - the Transparent area can also be moved - by using the Arrow keys on the keyboard
  - the Transparent area can also be resiized horizontally - use the `-` key to reduce the width and the `=` key to increase width
  - the Transparent area can also be resiized vertically - use the `,` (Comma) key to reduce the hight and the `.` (Period) key to increase hight
- - the virtical speed can be reduced by pressing the `_` (Underscore) key OR it can be increased by pressing the `+` (Plus) key
- - the horizontal speed can be reduced by pressing the `<` key OR it can be increased by pressing the `>` key
+ - the horizontal speed can be reduced by pressing the `_` (Underscore) key OR it can be increased by pressing the `+` (Plus) key
+ - the vertical speed can be reduced by pressing the `<` key OR it can be increased by pressing the `>` key
  - the whole blank window can be Minimized - by pressing the `m` key
 
 ## Setup
