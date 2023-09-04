@@ -103,12 +103,12 @@ def main():
                 
                 # for increasing / decreasing
                 # width of visible area 
-                if event.key == pygame.K_LESS:
+                if event.key == pygame.K_COMMA:
                     if width > 5:
                         width -= 5
                     else:
                         width = 250
-                if event.key == pygame.K_GREATER:
+                if event.key == pygame.K_PERIOD:
                     if width < scrres.current_w:
                         width += 5
                     else:
@@ -116,12 +116,12 @@ def main():
                 
                 # for increasing / decreasing
                 # horizontal speed
-                if event.key == pygame.K_COMMA:
+                if event.key == pygame.K_LESS:
                     if vertstepval > 5:
                         vertstepval -= 5
                     else:
                         vertstepval = width 
-                if event.key == pygame.K_PERIOD:
+                if event.key == pygame.K_GREATER:
                     if vertstepval < width:
                         vertstepval += 5
                     else:
