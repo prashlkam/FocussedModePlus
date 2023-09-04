@@ -100,15 +100,15 @@ FocusedModePlus is just such an Attempt...
  - the Transparent area moves wherever the mouse cursor is moved
  - the Transparent area can also be moved - by using the Arrow keys on the keyboard
  - the Transparent area can also be resiized horizontally - use the `-` key to reduce the width and the `=` key to increase width
- - the Transparent area can also be resiized vertically - use the `<` key to reduce the hight and the `>` key to increase hight
+ - the Transparent area can also be resiized vertically - use the `,` (Comma) key to reduce the hight and the `.` (Period) key to increase hight
  - the virtical speed can be reduced by pressing the `_` (Underscore) key OR it can be increased by pressing the `+` (Plus) key
- - the horizontal speed can be reduced by pressing the `,` (Comma) key OR it can be increased by pressing the `.` (Period) key
+ - the horizontal speed can be reduced by pressing the `<` key OR it can be increased by pressing the `>` key
  - the whole blank window can be Minimized - by pressing the `m` key
 
 ## Setup
 -----------
  follow these steps to install FocusedModePlus on your system...
- - install python
+ - install python  [not elaborated here]
  - install pygame using pip
 ```
 pip install pygame
@@ -117,7 +117,7 @@ pip install pygame
 ```
 pip install pywin32
 ```
- - do a git clone of this project - in a directory of your choice
+ - do a git clone of this project - in a directory of your choice  [eg. Documents or Downloads]
 ```
 git clone  https://github.com/prashlkam/FocusedModePlus
 ```
