@@ -9,6 +9,7 @@ screen = pygame.display.set_mode((scrres.current_w, scrres.current_h),pygame.NOF
 px, py, width, hight, horstepval, vertstepval = 45, 45, 250, 150, 150, 100
 fuchsia = (255, 0, 128)  # Transparency color
 black = (0, 0, 0)
+white = (255, 255, 255)
 
 # Create layered window
 hwnd = pygame.display.get_wm_info()["window"]
@@ -135,6 +136,7 @@ def main():
         pygame.display.update()
         
 def drawtransparentrectangle(px, py, width, hight):
+    pygame.draw.rect(screen, white, pygame.Rect((px-int(width/2)-2), (py-int(hight/2))-2, width+4, hight+4))
     pygame.draw.rect(screen, fuchsia, pygame.Rect(px-int(width/2), py-int(hight/2), width, hight))
     
 main()
