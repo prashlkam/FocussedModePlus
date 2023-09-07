@@ -78,55 +78,55 @@ def main():
                 # for increasing / decreasing
                 # hight of visible area 
                 if event.key == pygame.K_MINUS:
-                    if hight > 5:
-                        hight -= 5
+                    if hight > 0 + vertstepval:
+                        hight -= vertstepval
                     else:
                         hight = 150
                 if event.key == pygame.K_EQUALS:
-                    if hight < scrres.current_h:
-                        hight += 5
-                    
+                    if hight < scrres.current_h - vertstepval:
+                        hight += vertstepval
                     else:
                         hight = 5
                 
+
                 # for increasing / decreasing
                 # vertical speed
                 if event.key == pygame.K_UNDERSCORE:
-                    if horstepval > 5:
-                        horstepval -= 5
+                    if vertstepval > 25:
+                        vertstepval -= 25
                     else:
-                        horstepval = hight
+                        vertstepval = hight
                 if event.key == pygame.K_PLUS:
                     if horstepval < hight:
-                        horstepval += 5
+                        horstepval += 25
                     else:
-                        horstepval = 5
+                        horstepval = 25
                 
                 # for increasing / decreasing
                 # width of visible area 
                 if event.key == pygame.K_COMMA:
-                    if width > 5:
-                        width -= 5
+                    if width > 0 + horstepval:
+                        width -= horstepval
                     else:
                         width = 250
                 if event.key == pygame.K_PERIOD:
-                    if width < scrres.current_w:
-                        width += 5
+                    if width < scrres.current_w - horstepval:
+                        width += horstepval
                     else:
                         width = 5
                 
                 # for increasing / decreasing
                 # horizontal speed
                 if event.key == pygame.K_LESS:
-                    if vertstepval > 5:
-                        vertstepval -= 5
+                    if vertstepval > 20:
+                        vertstepval -= 20
                     else:
                         vertstepval = width 
                 if event.key == pygame.K_GREATER:
                     if vertstepval < width:
-                        vertstepval += 5
+                        vertstepval += 20
                     else:
-                        vertstepval = 5
+                        vertstepval = 20
                 lx, ly = pygame.mouse.get_pos()
             
                                 
