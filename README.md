@@ -99,10 +99,10 @@ FocusedModePlus is just such an Attempt...
  - a small part of this blank window is Transparent - through which anything that is in the background can be seen
  - the Transparent area moves wherever the mouse cursor is moved
  - the Transparent area can also be moved - by using the Arrow keys on the keyboard
- - the Transparent area can also be resiized vertically - use the `-` key to reduce the width and the `=` key to increase width
- - the Transparent area can also be resiized horizontally - use the `,` (Comma) key to reduce the hight and the `.` (Period) key to increase hight
- - the vertical speed can be reduced by pressing the `_` (Underscore) key OR it can be increased by pressing the `+` (Plus) key
- - the horizontal speed can be reduced by pressing the `<` key OR it can be increased by pressing the `>` key
+ - the Transparent area can also be resiized horizontally - use the `-` key to reduce the width and the `=` key to increase width
+ - the Transparent area can also be resiized vertically - use the `,` (Comma) key to reduce the hight and the `.` (Period) key to increase hight
+ - the horizontal speed can be reduced by pressing the `_` (Underscore) key OR it can be increased by pressing the `+` (Plus) key
+ - the vertical speed can be reduced by pressing the `<` key OR it can be increased by pressing the `>` key
  - the whole blank window can be Minimized - by pressing the `m` key
  - you can Quit FocussedModePlus by pressing the `q` key
 
