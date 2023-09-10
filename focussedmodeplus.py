@@ -72,8 +72,8 @@ def main():
                 
                 if event.key == pygame.K_m:
                     pygame.display.iconify()
-                # if event.key == pygame.K_x:
-                #     pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+                
+                # =====================================
                 
                 # for increasing / decreasing
                 # width of visible area 
