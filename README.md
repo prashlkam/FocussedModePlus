@@ -106,6 +106,8 @@ FocusedModePlus is just such an Attempt...
  - the whole blank window can be Minimized - by pressing the `m` key
  - you can Quit FocussedModePlus by pressing the `q` key
 
+this is the linux implementation [all the above features may not be available]
+
 ## Setup
 -----------
  follow these steps to install FocusedModePlus on your system...
@@ -114,10 +116,16 @@ FocusedModePlus is just such an Attempt...
 ```
 pip install pygame
 ```
- - install pywin32 using pip
+
+some linux distros may require you to install pip packages through their own package manager (i,e. `apt` / `dnf` / `pacman` etc.). In such a case - please refer to you dostro's docs / wiki / forums or google for details on how to install the required pip packages.....
+
+ - install pyqt5 using pip
 ```
-pip install pywin32
+pip install pyqt5
 ```
+
+some linux distros may require you to install pip packages through their own package manager (i,e. `apt` / `dnf` / `pacman` etc.). In such a case - please refer to you dostro's docs / wiki / forums or google for details on how to install the required pip packages.....
+
  - do a git clone of this project - in a directory of your choice  [eg. Documents or Downloads]
 ```
 git clone  https://github.com/prashlkam/FocusedModePlus
@@ -128,5 +136,5 @@ cd C:\<where you saved the project>
 ```
  - now Run the program...
 ```
-python3 .\focussedmodeplus.py
+python3 .\focussedmodeplus-pyqt-linux.py
 ```
