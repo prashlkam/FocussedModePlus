@@ -34,9 +34,18 @@ class TransparentWindow(QMainWindow):
         self.rect_x, self.rect_y = 100, 100
         self.rect_width, self.rect_height = 200, 100
         self.hor_speed, self.vert_speed = 10, 10
+
     def closeEvent(self, event):
         pygame.quit()
 
+#    def keyPressEvent(self, event):
+#        for event in pygame.event.get():
+#            if event.type == pygame.KEYDOWN:
+#                if event.key == pygame.K_q:
+#                    self.close()
+#                elif event.key == pygame.K_m:
+#                    self.showMinimized()
+#
     def keyPressEvent(self, event):
         if event.key() == Qt.Key_Q:
             self.close()
@@ -47,6 +56,7 @@ class TransparentWindow(QMainWindow):
         painter = QPainter(self)
         # Draw a black background
         painter.setBrush(Qt.black)
+        painter.setPen(Qt.black)
         # painter.drawRect(0, 0, self.width(), self.height())
         painter.drawRect(0, 0, self.rect_x, self.rect_y) # top left
         painter.drawRect(self.rect_x, 0, self.rect_width, self.rect_y) # top center
@@ -58,6 +68,7 @@ class TransparentWindow(QMainWindow):
         painter.drawRect(self.rect_x+self.rect_width, self.rect_y+self.rect_height, self.width()-(self.rect_x+self.rect_width), self.height()-(self.rect_y+self.rect_height)) # bottom right
 
         # Draw a transparent rectangle
+        painter.setPen(Qt.white)
         painter.setBrush(Qt.transparent)
         painter.drawRect(self.rect_x, self.rect_y, self.rect_width, self.rect_height)
 
