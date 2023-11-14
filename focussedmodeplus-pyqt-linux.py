@@ -25,6 +25,9 @@ class TransparentWindow(QMainWindow):
         palette.setColor(QPalette.Background, Qt.transparent)
         self.setPalette(palette)
 
+        # Set mouse tracking to True
+        self.setMouseTracking(True)
+
         # Initialize Pygame
         pygame.init()
         # self.screen = pygame.display.set_mode((1, 1), SWSURFACE)
@@ -133,12 +136,8 @@ class TransparentWindow(QMainWindow):
         painter.drawRect(self.rect_x, self.rect_y, self.rect_width, self.rect_height)
 
     def mouseMoveEvent(self, event):
-        #cursor = QCursor() 
-        #if self.lx == self.rect_x and self.ly == self.rect_y:
-        #    self.rect_x, self.rect_y = cursor.pos()
-        self.rect_x, self.rect_y = event.x(), event.y()
+        self.rect_x, self.rect_y = event.x()-(self.rect_width//2), event.y()-(self.rect_height//2)
         self.update()
-        #self.lx, self.ly = cursor.pos()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
