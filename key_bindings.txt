@@ -1,0 +1,14 @@
+Key Bindings Screen for FocussedModePlus
+===========================================
+key |  =  |            Action
+ -  |  =  |   decrease width of Transparent Area
+ =  |  =  |   increase width of Transparent Area
+ ,  |  =  |   decrease hight of Transparent Area
+ .  |  =  |   increase hight of Transparent Area
+ _  |  =  |   decrease Hor Speed of Transparent Area
+ +  |  =  |   increase Hor Speed of Transparent Area
+ <  |  =  |   decrease Vert Speed of Transparent Area
+ >  |  =  |   increase Vert Speed of Transparent Area
+ m  |  =  |   Minimize FocussedModePlus
+ h  |  =  |   displays this Help Screen
+ q  |  =  |   Quits FocussedModePlus
