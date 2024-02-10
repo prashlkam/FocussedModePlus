@@ -1,3 +1,4 @@
+import os
 import pygame
 import win32api
 import win32con
@@ -46,6 +47,13 @@ def main():
             
             if event.type == pygame.KEYDOWN:
                 
+                if event.key == pygame.K_h:
+                    pygame.display.iconify()
+                    os.system("keybindings.py 1")
+              
+                if event.key == pygame.K_m:
+                    pygame.display.iconify()
+              
                 if event.key == pygame.K_q:
                     ndone = False
                 
@@ -69,10 +77,7 @@ def main():
                         py += vertstepval
                     else:
                         py = scrres.current_h
-                
-                if event.key == pygame.K_m:
-                    pygame.display.iconify()
-                
+                                
                 # =====================================
                 
                 # for increasing / decreasing
