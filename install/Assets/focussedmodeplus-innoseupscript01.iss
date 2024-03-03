@@ -44,6 +44,7 @@ Source: "C:\Users\prashanth\Documents\Projects\python\FocusedModePlus\dist\keybi
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{group}\keybindings"; Filename: "{app}\keybindings.exe"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
