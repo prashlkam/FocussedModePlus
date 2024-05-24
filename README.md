@@ -138,3 +138,28 @@ cd C:\<where you saved the project>
 ```
 python3 .\focussedmodeplus-pyqt-linux.py
 ```
+
+### Alternative Setup - using nix-shell
+-------------------------------
+Alternative setup with `nix-shell`.....
+- install nix in your favorite distro...  [refer to `https://nixos.org/download/` - for details on how to install nix for your specific distro]
+- do a git clone of this project - in a directory of your choice  [eg. Documents or Downloads]
+```
+git clone  https://github.com/prashlkam/FocusedModePlus
+```
+- cd into the directory where you cloned the repo
+```
+cd ~/location-of-repo/
+```
+- switch to the pyqt-linux branch
+```
+git checkout pyqt-linux
+```
+- run nix-shell in a terminal...
+```
+nix-shell
+```
+now you'll hav a temp dev env - where you can run `focussedmodeplus-pyqt-linux.py`...
+```
+python3 focussedmodeplus-pyqt-linux.py &
+```
