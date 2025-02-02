@@ -58,7 +58,7 @@ def main():
                 if event.key == pygame.K_q:
                     ndone = False
                 
-                if event.key == pygame.K_s:
+                if event.key == pygame.K_r:
                     rectarea = True
                 
                 if event.key == pygame.K_c:
@@ -160,7 +160,7 @@ def drawtransparentarea(px, py, width, hight, radius, rectarea):
         pygame.draw.rect(screen, white, pygame.Rect((px-int(width/2)-2), (py-int(hight/2))-2, width+4, hight+4))
         pygame.draw.rect(screen, fuchsia, pygame.Rect(px-int(width/2), py-int(hight/2), width, hight))
     else:
-        pygame.draw.circle(screen, white, pygame.Circle((px-int(width/2)-2), (py-int(hight/2))-2, radius+2)) 
-        pygame.draw.circle(screen, fuchsia, pygame.Circle((px-int(width/2)-2), (py-int(hight/2))-2, radius)) 
+        pygame.draw.circle(screen, white, (px, py), radius+2) 
+        pygame.draw.circle(screen, fuchsia, (px, py), radius) 
     
 main()

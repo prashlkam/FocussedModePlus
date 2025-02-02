@@ -8,7 +8,7 @@ class keybindings :
         pygame.init()
 
         # Set up some constants
-        self.WIDTH, self.HEIGHT = 800, 600
+        self.WIDTH, self.HEIGHT = 800, 800
         self.FONT_SIZE = 28
         self.BACKGROUND_COLOR = (0, 0, 0)  # Black
         self.FOREGROUND_COLORS = [(255, 255, 255), (255, 255, 0), (173, 216, 230), (0, 255, 0)]  # White, Yellow, Light Blue, Green
