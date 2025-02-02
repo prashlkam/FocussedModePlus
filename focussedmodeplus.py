@@ -24,7 +24,8 @@ win32gui.SetWindowPos(hwnd, win32con.HWND_TOPMOST, 0, 0, 0, 0, win32con.SWP_NOSI
 
 def main():
     ndone = True
-    width, hight = 250, 150
+    rectarea = True
+    width, hight, radius = 250, 150, 150
     px, py = 50, 50
     lx, ly = 0, 0
     horstepval, vertstepval = 150, 100
@@ -57,6 +58,12 @@ def main():
                 if event.key == pygame.K_q:
                     ndone = False
                 
+                if event.key == pygame.K_s:
+                    rectarea = True
+                
+                if event.key == pygame.K_c:
+                    rectarea = False
+                
                 if event.key == pygame.K_LEFT:
                     if px >= 0:
                         px -= horstepval
@@ -85,13 +92,17 @@ def main():
                 if event.key == pygame.K_MINUS:
                     if width > 0 + horstepval:
                         width -= horstepval
+                        radius -= horstepval
                     else:
                         width = horstepval
+                        radius = horstepval
                 if event.key == pygame.K_EQUALS:
                     if width < scrres.current_w - horstepval:
                         width += horstepval
+                        radius += horstepval
                     else:
                         width = scrres.current_w - horstepval
+                        radius = scrres.current_w - horstepval
                 
                 # for increasing / decreasing
                 # horizontal speed
@@ -111,13 +122,17 @@ def main():
                 if event.key == pygame.K_COMMA:
                     if hight > 0 + vertstepval:
                         hight -= vertstepval
+                        radius -= vertstepval
                     else:
                         hight = vertstepval
+                        radius = vertstepval
                 if event.key == pygame.K_PERIOD:
                     if hight < scrres.current_h - vertstepval:
                         hight += vertstepval
+                        radius += vertstepval
                     else:
                         hight = scrres.current_h - vertstepval
+                        radius = scrres.current_h - vertstepval
                 
                 # for increasing / decreasing
                 # vertical speed
@@ -137,11 +152,15 @@ def main():
                                 
         screen.fill(black)
         # Transparent Rectangle
-        drawtransparentrectangle(px, py, width, hight)
+        drawtransparentarea(px, py, width, hight, radius, rectarea)
         pygame.display.update()
         
-def drawtransparentrectangle(px, py, width, hight):
-    pygame.draw.rect(screen, white, pygame.Rect((px-int(width/2)-2), (py-int(hight/2))-2, width+4, hight+4))
-    pygame.draw.rect(screen, fuchsia, pygame.Rect(px-int(width/2), py-int(hight/2), width, hight))
+def drawtransparentarea(px, py, width, hight, radius, rectarea):
+    if rectarea == True:
+        pygame.draw.rect(screen, white, pygame.Rect((px-int(width/2)-2), (py-int(hight/2))-2, width+4, hight+4))
+        pygame.draw.rect(screen, fuchsia, pygame.Rect(px-int(width/2), py-int(hight/2), width, hight))
+    else:
+        pygame.draw.circle(screen, white, pygame.Circle((px-int(width/2)-2), (py-int(hight/2))-2, radius+2)) 
+        pygame.draw.circle(screen, fuchsia, pygame.Circle((px-int(width/2)-2), (py-int(hight/2))-2, radius)) 
     
 main()
