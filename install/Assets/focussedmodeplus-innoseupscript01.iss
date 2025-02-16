@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "FocussedModePlus"
-#define MyAppVersion "0.3.1 Alpha"
+#define MyAppVersion "0.4.2 Alpha"
 #define MyAppPublisher "Prashanth Kamath (eht)"
 #define MyAppURL "https://eht.eventhorizongroup.com/"
 #define MyAppExeName "focussedmodeplus.exe"
